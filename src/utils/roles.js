@@ -1,0 +1,12 @@
+import { ROLE } from '@/constants/roles'
+
+export const isBuyer = (roleName) => (
+  [
+    ROLE.MEMBER_BUYER_ALL,
+    ROLE.MEMBER_BUYER_ALL_ACCOUNT_ADMIN,
+    ROLE.MEMBER_BUYER_CLAIM,
+    ROLE.MEMBER_BUYER_CLAIM_ACCOUNT_ADMIN,
+    ROLE.MEMBER_BUYER_DERIVATIVE,
+    ROLE.MEMBER_BUYER_DERIVATIVE_ACCOUNT_ADMIN
+  ].includes(roleName)
+)

@@ -1,0 +1,67 @@
+/**
+ * Typography related constants
+ */
+// simple defaults these can be updated to use the gogo sass information
+const FONT_STACK_DEFAULT = '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif'
+const FONT_STACK_BRAND = '"Metropolis" "Helvetica Neue" Arial sans-serif'
+const FONT_STACK_CODE = '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace'
+
+const FONT_SIZE_PAGE_TITLE = '40px'
+
+const FONT_SIZE_HEADING_LG = '38px'
+const FONT_SIZE_HEADING_DEFAULT = '36px'
+const FONT_SIZE_HEADING_SM = '32px'
+
+const FONT_SIZE_SUBHEADING_LG = '18px'
+const FONT_SIZE_SUBHEADING_DEFAULT = '16px'
+const FONT_SIZE_SUBHEADING_SM = '14px'
+
+const FONT_SIZE_ITEM_TITLE_LG = '16px'
+const FONT_SIZE_ITEM_TITLE_DEFAULT = '14px'
+const FONT_SIZE_ITEM_TITLE_SM = '12px'
+
+const FONT_SIZE_TEXT_XL = '18px'
+const FONT_SIZE_TEXT_LG = '16px'
+const FONT_SIZE_TEXT_DEFAULT = '14px'
+const FONT_SIZE_TEXT_SM = '12px'
+const FONT_SIZE_TEXT_XS = '10px'
+
+const LINE_HEIGHT_LOOSE = 1.6
+const LINE_HEIGHT_DEFAULT = 1.4
+const LINE_HEIGHT_TIGHT = 1.2
+
+const FONT_WEIGHT_DEFAULT = 400
+const FONT_WEIGHT_MEDIUM = 500
+const FONT_WEIGHT_SEMIBOLD = 600
+const FONT_WEIGHT_BOLD = 700
+
+const LETTER_SPACING_DEFAULT = 'normal'
+
+export {
+  FONT_STACK_BRAND,
+  FONT_STACK_CODE,
+  FONT_STACK_DEFAULT,
+  FONT_SIZE_PAGE_TITLE,
+  FONT_SIZE_HEADING_LG,
+  FONT_SIZE_HEADING_DEFAULT,
+  FONT_SIZE_HEADING_SM,
+  FONT_SIZE_SUBHEADING_LG,
+  FONT_SIZE_SUBHEADING_DEFAULT,
+  FONT_SIZE_SUBHEADING_SM,
+  FONT_SIZE_ITEM_TITLE_LG,
+  FONT_SIZE_ITEM_TITLE_DEFAULT,
+  FONT_SIZE_ITEM_TITLE_SM,
+  FONT_SIZE_TEXT_XL,
+  FONT_SIZE_TEXT_LG,
+  FONT_SIZE_TEXT_DEFAULT,
+  FONT_SIZE_TEXT_SM,
+  FONT_SIZE_TEXT_XS,
+  LINE_HEIGHT_LOOSE,
+  LINE_HEIGHT_DEFAULT,
+  LINE_HEIGHT_TIGHT,
+  FONT_WEIGHT_DEFAULT,
+  FONT_WEIGHT_MEDIUM,
+  FONT_WEIGHT_SEMIBOLD,
+  FONT_WEIGHT_BOLD,
+  LETTER_SPACING_DEFAULT
+}

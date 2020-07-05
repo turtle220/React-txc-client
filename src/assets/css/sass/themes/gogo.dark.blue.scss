@@ -1,0 +1,40 @@
+$separator-color-light: #313131;
+$separator-color: #424242;
+$background-color:rgb(8, 8, 8);
+$foreground-color: rgb(39, 46, 54);
+$input-background: rgb(39, 46, 54);
+
+$dark-btn-background: #8d8d8d;
+$light-btn-background: #e4e4e4;
+$button-text-color: #d0d0d0;
+
+$theme-color-1: #2188DD;
+$theme-color-2: #3582b3;
+$theme-color-3: #6c90a1;
+$theme-color-4: #365573;
+$theme-color-5: #47799a;
+$theme-color-6: #8e9599;
+
+$primary-color: #E5E5E5;
+$secondary-color: #E5E5E5;
+$muted-color: #5a5a5a;
+
+$gradient-color-1 : #225986;
+$gradient-color-2 : #1a3a53;
+$gradient-color-3 : #145388;
+
+$shadowOffsetsTop : 1 3 10 14 19;
+$shadowBlursTop: 2 6 10 14 19;
+$shadowOpacitiesTop: 0.1 0.3 0.6 0.7 0.8;
+
+$shadowOffsetsBottom : 1 3 6 10 15;
+$shadowBlursBottom: 3 6 6 5 6;
+$shadowOpacitiesBottom: 0.1 0.3 0.6 0.7 0.8;
+
+$logoPath: "/assets/img/TXC_Markets_logo_white.svg";
+$logoPathMobile: "/assets/img/TXC_Markets_logo_white.svg";
+
+@import "../_mixins.scss";
+@import "../_gogo.style.scss";
+
+
