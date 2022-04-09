@@ -17,7 +17,7 @@
     "formik": "^1.5.1",
     "graphql": "^14.5.8",
     "jest-styled-components": "^6.3.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "numeral": "^2.0.6",
     "password-validator": "^5.0.3",
     "query-string": "^6.10.1",
